@@ -1,0 +1,36 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    position: relative;
+}
+.widget{
+    width: 500px;
+    margin-top: 100px;
+}
+.entry__img{
+    position: absolute;
+    margin-left: -40%;
+}
+.widget__title{
+    font-size: 50px;
+}
+.widget__desc{
+    color: #888888;
+}
+.widget__span{
+    padding: 20px 40px;
+    background-color: #EA625C;
+}
+.widget__desc{
+    margin-bottom: 40px;
+}
+.widget__span__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.widget__span:hover{
+    background-color: #FA98CE;
+    transition: all 0.3s linear;
+}

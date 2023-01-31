@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    margin-top: 36px;
+}
+.user{
+    margin-left: 50%;
+}
+.user__list{
+    display: flex;
+}
+.user__item{
+    margin-left: 30px;
+    color: #000;
+}
+.user__item__link{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    &::after{
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: #000;
+        content: "";
+    }
+    &:hover::after{
+        display: block;
+        width: 100%;
+        background-color: #3474A8;
+        transition: all 0.3s linear;
+    }
+}
